@@ -8,7 +8,7 @@ public class Circle implements ShapeInterface {
     @Override
     public void calculateArea(double dimension) {
         radius = dimension;
-        area = 2 * Math.PI * radius;
+        area = Math.PI * radius * radius;
     }
 
     @Override
